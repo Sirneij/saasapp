@@ -1,0 +1,49 @@
+{% extends 'layouts/_base.html' %}
+<!-- title -->
+{% block title %}Test your luck against the roll of the dice{% endblock title %}
+<!-- end title -->
+
+<!-- meta description -->
+{% block meta_description %} Compete against yourself and others by guessing the
+outcome of a dice roll. Win points and dominate the leaderboard with an
+impressive style. {% endblock meta_description %}
+<!-- end meta description -->
+<!-- body -->
+{% block body %}
+<section class="container">
+  <div class="text-center">
+    <h1>Feeling lucky?</h1>
+    <p class="lead text-muted">
+      Test your luck against the roll of the dice and win today
+    </p>
+  </div>
+  <div class="row text-center">
+    <div class="col-lg-4">
+      <i class="fas fa-fw fa-4x fa-bullhorn text-danger"></i>
+      <h2>Place bets</h2>
+      <p class="text-muted">Correctly guess the dice's roll.</p>
+      <p>
+        <a href="#" class="btn btn-light">Sign up</a>
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <i class="fa fa-fw fa-4x fa-database text-danger"></i>
+      <h2>Win currency</h2>
+      <p class="text-muted">Gain coins if your guess is correct.</p>
+      <p>
+        <a href="#" class="btn btn-light">Sign up</a>
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <i class="fa fa-fw fa-4x fa-trophy text-danger"></i>
+      <h2>Leaderboard</h2>
+      <p class="text-muted">Compare your results to others.</p>
+      <p>
+        <a href="#" class="btn btn-light">Sign up</a>
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock body %}
+
+<!-- end body -->
